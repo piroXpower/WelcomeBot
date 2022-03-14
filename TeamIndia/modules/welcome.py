@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from TeamIndia import bot_username, admin_id
-from TeamIndia.modules.Database.mongo import db
+from TeamIndia.utils import db
 
 
 @Client.on_message(filters.new_chat_members &
