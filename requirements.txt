@@ -4,3 +4,5 @@ tgcrypto
 git+https://github.com/asteroidden/pyrothrottle
 pyrogram 
 motor
+dnspython
+pymongo[srv]
