@@ -3,7 +3,7 @@ import os
 
 from pyrogram import Client
 
-config_path = 'TeamIndia/config.ini'
+config_path = 'config.ini'
 if not os.path.isfile(config_path):
     print('Config file not found!')
     exit(1)
